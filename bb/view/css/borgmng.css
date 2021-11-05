@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #008CBA;
+}
+
+.org-btn {
+  background-color: var(--primary-color);
+  color: white;
+  height: 42px;
+  width: 250px;
+  border-radius: 15px;
+  border: none;
+  display: inline;
+  margin: 16px;
+  padding: auto;
+}
+
+.org-btn:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.org-btn:active {
+  -webkit-box-shadow: 0 5px #667;
+          box-shadow: 0 5px #667;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+.div-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aliceblue;
+  padding: 1px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2em;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.edit-btn {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 5em;
+  display: inline-block;
+}
+
+.edit-btn:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+/*# sourceMappingURL=borgmng.css.map */
